@@ -1,0 +1,18 @@
+header, .project:not(:last-child) {
+    border-bottom: 1px solid rgb(28, 76, 78);
+}
+
+.no-button {
+background: none;
+border: none;
+padding: 0;
+cursor: pointer;
+color: #d8780a;
+text-decoration: none;
+font-size: 100%;
+}
+
+.no-button:hover {
+color: #065b83;
+text-decoration: underline;
+}
