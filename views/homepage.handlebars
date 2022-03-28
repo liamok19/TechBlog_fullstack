@@ -1,0 +1,32 @@
+
+
+
+<section>
+
+    table#user-data>(thead>th*3)+(tbody>tr*5>td.data*3)
+
+    <section class="container">
+        <article class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </article>
+        <article class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </article>
+        <article class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </article>
+    </section>
+
+    <ul>
+        {{#each users as |user|}}
+            <li>{{user.username}}</li>
+        {{/each}}
+    </ul>
+
+</section>
